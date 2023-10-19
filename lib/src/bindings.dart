@@ -1431,7 +1431,7 @@ abstract class aiComponent {
   static const int _aiComponent_Force32Bit = -1610612737;
 }
 
-class aiVector3D extends ffi.Struct {
+base aiVector3D extends ffi.Struct {
   @ffi.Float()
   external double x;
 
